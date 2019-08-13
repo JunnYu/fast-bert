@@ -230,7 +230,7 @@ texts = [
 	"this is the second text"
 	]
 
-multiple_predictions = predictor.predict(texts)
+multiple_predictions = predictor.predict_batch(texts)
 ```
 
 ## AWS Sagemaker Support
